@@ -25,7 +25,7 @@ namespace Zadania_Znajomosc_CSharp
             /* Zadanie 1.7.Napisz program, który oblicza sumę, różnicę, iloczyn i iloraz dla dwóchliczb x i y wprowadzanych z klawiatury. W programie przyjmujemy, że zmienne x i y są typu double(typu rzeczywistego).Wszystkie zmienne należy wyświetlić z dokładnością
             do dwóch miejsc po przecinku.*/
             double suma, roznica, iloczyn, iloraz, x, y;
-            Console.Write("Za chwilę poproszę Cię o podanie 2 dowolnych liczby x i y, następnie otrzymasz sumę, różnicę, iloczyn oraz iloraz tych liczb\nPodaj liczbę x = ");
+            Console.Write("Za chwilę poproszę Cię o podanie 2 dowolnych liczb x i y, następnie otrzymasz sumę, różnicę, iloczyn oraz iloraz tych liczb\nPodaj liczbę x = ");
             x = double.Parse(Console.ReadLine());
             Console.Write("Podaj liczbę y = ");
             y = double.Parse(Console.ReadLine());
